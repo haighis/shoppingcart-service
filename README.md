@@ -19,7 +19,7 @@ Integration with Travic CI for continuous integration.
 [![Build Status](https://travis-ci.org/haighis/shoppingcart-service.svg?branch=master)](https://travis-ci.org/haighis/shoppingcart-service)
 
 ## Usage
-See the wiki for REST operations. What can I do with Shopping Cart Service? You can use it to add/update/delete a cart item that are accessible via REST GET/PUT/DELETE with JSON content.
+What can I do with Shopping Cart Service? You can use it to add/update/delete a cart item that are accessible via REST POST/PUT/DELETE with JSON content.
 
 ## Running
 
@@ -28,8 +28,6 @@ See the wiki for REST operations. What can I do with Shopping Cart Service? You 
 ## Viewing the API
 
 With Netflix Eureka + Swagger a self documenting API will demonstrate API Verbs available
-
-See the wiki for REST operations.
 
 ## Tests
 
