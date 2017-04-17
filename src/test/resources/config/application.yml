@@ -56,32 +56,3 @@ security:
 server:
     port: 10344
     address: localhost
-
-# ===================================================================
-# JHipster specific properties
-# ===================================================================
-
-jhipster:
-    async:
-        corePoolSize: 2
-        maxPoolSize: 50
-        queueCapacity: 10000
-    security:
-        authentication:
-            jwt:
-                secret: 4c6b3d129445aefd532d491ca092df199405aa17
-                # Token is valid 24 hours
-                tokenValidityInSeconds: 86400
-    metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
-        jmx.enabled: true
-    swagger:
-        title: shoppingcartservice API
-        description: shoppingcartservice API documentation
-        version: 0.0.1
-        termsOfServiceUrl:
-        contactName:
-        contactUrl:
-        contactEmail:
-        license:
-        licenseUrl:
-        enabled: false
