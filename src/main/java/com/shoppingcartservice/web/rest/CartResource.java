@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
 /**
  * REST controller for managing Cart.
  * POST - creates a cart
- * GET - gets a cart
+ * PUT - updates a cart
  * DELETE - deletes a cart
  */
 @RestController
